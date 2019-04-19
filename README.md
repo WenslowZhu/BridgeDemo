@@ -127,4 +127,5 @@ class ViewController: UIViewController {
 ## 小结
 
 在这个小 Demo 中我们使用 Protocol 在两个静态库之间搭起一座临时的桥梁。借助 Protocol 我们可以在避免循环引用的前提下，在已经存在从属引用关系的静态库之间分享某些服务。
+
 但是请牢记，好的设计模式才是避免出现这种循环引用的根本解决方案。
